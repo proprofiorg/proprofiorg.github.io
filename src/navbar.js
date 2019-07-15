@@ -23,10 +23,10 @@ class NavBar extends React.Component{
 					      <img src="/images/menu.png" />
 			      </button>    				
 					<div className= { this.state.activeNav ? "sidebar active" : "collapse" } id="navbarNav">
-							<a className="nav-link" href="#root">ГЛАВНАЯ</a>
-							<a className="nav-link" href="#profi">ПРОФЕССИИ</a>
-							<a className="nav-link" href="#about">О НАС</a>
-							<a className="nav-link" href="#feedback">СВЯЗАТЬСЯ</a>
+							<a className="nav-link" href="#root">Главная</a>
+							<a className="nav-link" href="#video">Видео</a>
+							<a className="nav-link" href="#about">О нас</a>
+							<a className="nav-link" href="#feedback">Контакты</a>
 							<button type="button" className="button-sidebar" 
 								onClick={() =>this.setState({activeNav: !this.state.activeNav})}>X
 							</button>

@@ -13,7 +13,7 @@ render(){
 			</div>
 		</div>
 		)
-}
+	}
 }
 
 export default HomeDiv;

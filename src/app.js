@@ -4,9 +4,13 @@ import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import NavBar from './navbar';
 import HomeDiv from './components/home/home';
-import ProfiDiv from './components/home/profi';
 import AboutDiv from './components/home/about';
 import TargetSection from './components/home/target';
+
+import EngTest from './components/professions/manEngTest';
+import MobileDeveloper from './components/professions/manMobileDeveloper';
+import EngProgrammer from './components/professions/manEngProgrammer';
+
 import FeedbackDiv from './components/home/feedback';
 import Footer from './components/footer';
 
@@ -19,7 +23,10 @@ class Hello extends React.Component {
 			<div className="container">
 				<HomeDiv />
 				<TargetSection />
-				<ProfiDiv />
+			<div id="video" className="section video-section">
+				<h3 className="font_2">Видео про профессии</h3>
+				<EngTest /><MobileDeveloper /><EngProgrammer />
+			</div>
 				<AboutDiv />
 				<FeedbackDiv />
 			</div>

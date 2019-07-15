@@ -19,6 +19,19 @@ a:focus, a:hover {
 	padding-top: 50px;
     width: 100%;
 }
+
+.profi-section {
+    padding: 50px 15px 10px;
+    min-height: 420px;
+    background-color: #ffffff;
+    color: #4c4a3d;
+
+}
+.proprofi{
+    background-color: #ffffff;
+    color: #333333;
+}
+
 div.anonce{
     margin-bottom: 20px;
     margin-top: 10px;

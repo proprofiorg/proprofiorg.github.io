@@ -7,10 +7,10 @@ class Footer extends Component{
 <footer id="footer" className="site-footer">
 	<div className="footer-nav">
 	<ul className="footer-nav-list">
-			<li className="footer-nav-item"><a className="nav-link" href="#root">ГЛАВНАЯ</a></li>
-			<li className="footer-nav-item"><a className="nav-link" href="#profi">ПРОФЕССИИ</a></li>
-			<li className="footer-nav-item"><a className="nav-link" href="#about">О НАС</a></li>
-			<li className="footer-nav-item"><a className="nav-link" href="#feedback">СВЯЗАТЬСЯ</a></li>
+			<li className="footer-nav-item"><a className="nav-link" href="#root">Главная</a></li>
+			<li className="footer-nav-item"><a className="nav-link" href="#video">Видео</a></li>
+			<li className="footer-nav-item"><a className="nav-link" href="#about">О нас</a></li>
+			<li className="footer-nav-item"><a className="nav-link" href="#feedback">Контакты</a></li>
 	</ul>
 	</div>
 	<div className="copyright">
