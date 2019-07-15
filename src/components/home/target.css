@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.target-section div.target-button{
+.target-section .target-button-div{
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -10,17 +10,17 @@
     height: 35px;
     min-height: 21px;
     width: 201px;
-    /*margin: 0px 0px 18px calc((100% - 980px) * 0.5);*/
-    /*left: 389px;*/
-    /*grid-area: 18 / 1 / 19 / 2;*/
-    /*justify-self: start;*/
-    /*align-self: start;*/
 }
-.target-button a {
-	font: normal normal normal 15px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
-    text-align: initial;
+.target-button-div{
     display: flex;
     align-items: center;
+    text-align: initial;
+	font: normal normal normal 15px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+
+}
+button.target-button{
+    border: none;
+    padding:10px 15px;
     justify-content: center;
     position: absolute;
     top: 0;
@@ -28,14 +28,18 @@
     bottom: 0;
     left: 0;
     transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
-}
-
-.target-button a:focus, .target-button a:hover {
-    /*border-color: transparent;*/
-    background-color: #333333;
-    color: #FFFFFF;
-}
-.target-button a {
     background-color: #000000;
     color: #FFFFFF;
+}
+
+.target-button:focus, .target-button:hover {
+    background-color: #7c7c7c;
+    color: #bebebe;
+}
+.get-links{
+    display: block;
+    padding: 10px;
+    position: relative;
+    z-index: 1000;
+    height: auto;
 }
