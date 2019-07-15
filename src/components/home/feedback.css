@@ -1,0 +1,50 @@
+.feedback-form {
+    padding:10px;
+}
+
+.feedback-section {
+	padding: 50px 15px 10px;
+	min-height: 200px;
+	background-color: #ffffff;
+	color: #4a4c4d;
+
+}
+.feedback-section h3 {
+	text-align: center;
+}
+.feedback-section div.feedback-form {
+	min-width: 300px;
+	height: 380px;
+    position: relative;
+    /*margin: 0px 0px 0 calc((100% - 980px) * 0.5);*/
+    grid-area: 3 / 1 / 4 / 2;
+    justify-self: start;
+    align-self: start;
+    direction: ltr;
+    text-align: left;
+
+}
+.feedback-section div.feedback-form div.inputs {
+    min-width: 300px;
+    max-width: 980px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.feedback-section div.feedback-form input, .textareaContainer {
+    margin-bottom: 12px;
+    padding: 5px 10px;
+    font: normal normal normal 15px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    color: #001CAA;
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 2px solid rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+}

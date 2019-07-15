@@ -1,0 +1,14 @@
+.home-section {
+	padding: 50px 15px 10px;
+	min-height: 200px;
+	background-color: #ffffff;
+    color: #000000;
+
+}
+.home-section h3 {
+	text-align: center;
+}
+.home-section h2 span{
+color:#333333;
+}
+

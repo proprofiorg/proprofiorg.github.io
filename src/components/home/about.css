@@ -1,0 +1,10 @@
+.about-section {
+	padding: 50px 15px 10px;
+	min-height: 520px;
+	background-color: #ffffff;
+	color: #4a4a4a;
+
+}
+.about-section h3 {
+	text-align: center;
+}

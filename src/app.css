@@ -1,0 +1,54 @@
+body {
+    font-size: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+#root {
+	position: relative;
+}
+a{
+text-decoration: none;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
+.container {
+	    margin-top: 50px;
+}
+.section {
+	padding-top: 50px;
+    width: 100%;
+}
+div.anonce{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.anonce h5 {
+    font-size: 25px;
+    margin: 10px 5px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.anonce p{
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.section h3 {
+    text-align: center;
+}
+
+.font_2 {
+    font: italic normal normal 45px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    color: #000000;
+}
+
+.font_7 {
+    font: normal normal normal 18px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    color: #000000;
+}
+
+.font_8 {
+    font: normal normal normal 15px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    color: #000000;
+}
