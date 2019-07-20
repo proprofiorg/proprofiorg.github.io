@@ -8,3 +8,16 @@
 .about-section h3 {
 	text-align: center;
 }
+.history {
+	background-color: #fff;
+	color:#333333;
+}
+.history h5{
+	margin: 0px;
+}
+.history img{
+	margin-left: 15px
+}
+.history p{
+	padding:10px;
+}

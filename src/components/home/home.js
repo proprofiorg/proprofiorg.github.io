@@ -1,7 +1,7 @@
 import './home.css';
 import React,{Component} from 'react';
 
-class HomeDiv extends React.Component {
+class Home extends React.Component {
 render(){
 	return(
 		<div id="home" className="section home-section">
@@ -16,4 +16,4 @@ render(){
 	}
 }
 
-export default HomeDiv;
+export default Home;
