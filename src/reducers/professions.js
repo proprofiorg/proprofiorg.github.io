@@ -1,22 +1,5 @@
-const professions = [
-	{id:1,
-		'title':'Инженер программист',
-		'description':'Суть профессии программиста заключается в разработке, проектировании и создании программного обеспечения, а так же в обеспечении правильной работы этих программ.',
-		'video':'Wp-gffjMo54'},
-	{id:2,
-		'title':'Разработчик мобильных приложений',
-		'description':'Мобильный разработчик — это специалист, разрабатывающий программные приложения для различных мобильных устройств: планшетов, смартфонов. Профессия на данный момент самая модная, перспективная и востребованная.',
-		'video':'i_aYtRDZbDw'
-	},
-	{id:3,
-		'title':'Инженер по качеству',
-		'description':'Это специалист, который занимается тестированием программного обеспечения, контролирует его качество.',
-		'video':'NVqxL769c0U'
-	}
-];
-
-
-const professionsDB = (state = {professions}, action) => {
+import professionsDB from './professionsDB';
+const professions = (state = {professionsDB}, action) => {
 	switch(action.type){
 		case 'ADD_PROF':
 		return [
@@ -27,4 +10,5 @@ const professionsDB = (state = {professions}, action) => {
 			return state;
 	}
 }
-export default professionsDB
+
+export default professions;
