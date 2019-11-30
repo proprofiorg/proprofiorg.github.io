@@ -7,17 +7,18 @@ class ProProfi extends Component{
 		<section id="proprofi" className="proprofi">
 			<div className="div-nav-profi" style={{display:"flex"}}>{
 				this.props.profi.map((item) => 
-				<div className="anonce" key={item.id} style={{width:'390px',margin:'5px'}}>
-					<h5 className="font_8" style={{height:'50px'}}>{item.title}</h5>
-					<iframe 
-				width="380" height="220" src={ `https://www.youtube.com/embed/${item.video}` }
-				frameBorder="0"
-				allow="accelerometer; autoplay; encrypted-media; gyroscope;" 
-				allowFullScreen
-					/>
-					<p className="font_7">{item.description}</p>
-				</div>)
-			}</div>
+					<div className="anonce" key={item.id} style={{width:'390px',margin:'5px'}}>
+						<h5 className="font_8" style={{height:'50px'}}>{item.title}</h5>
+						<iframe 
+					width="380" height="220" src={ `https://www.youtube.com/embed/${item.video}` }
+					frameBorder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope;" 
+					allowFullScreen
+						/>
+						<p className="font_7">{item.description}</p>
+					</div>
+			)}
+			</div>
 		</section>
 			)
 	}
